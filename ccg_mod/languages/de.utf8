@@ -1,0 +1,200 @@
+almanac_hexer_cards = "Hexer-Karten"
+almanac_starting_hexer = "Start (Hexer)"
+almanac_hexer_plural = "Hexer"
+
+outfit_hexer_name = "Hexer"
+
+hexer_desc_fluff = "Von Kindheit an mutiert und darauf trainiert, nur eines zu tun: \^00FFFFMonster töten\^^. Dieser furchterregende Jäger nutzt sein \^00FFFFKampftraining\^^, nützliche \^00FFFFTränke\^^ und ein wenig \^00FFFFMagie\^^, um sich gegen seine Feinde durchzusetzen."
+
+hexer_disp_name = "Hexer"
+hexer_disp_name_cap = "HEXER"
+
+
+poison_influence_desc = "Stellt den Grad der Giftigkeit des Charakters dar. Jedes Mal, wenn der Zähler erhöht wird, füge dem Zugstapel eine Anzahl von \^d0d0ffToxin\^^-Karten hinzu, die der Erhöhung entspricht. Wenn der Zähler 0 erreicht, wird das Gift entfernt."
+poison_influence_name = "Gift"
+
+car_toxin_hex_title = "Gift"
+car_toxin_hex_desc  = "Beim Ablegen fügt der Spieler \1 Schaden zu.\n\^debf56Abgase\^^ beim Ausspielen und beim Ablegen."
+
+
+silver_sword_name = "Silberschwert"
+silver_sword_desc = "Deine Schwerter verursachen +1 Schaden für jedes Gift, das du hast."
+
+medallion_name = "Medaillon"
+medallion_desc = "Zu Beginn deines Zuges erhältst du 1 Block für jedes Monster in deinem Abschnitt."
+
+weird_horse_name = "Seltsames Pferd"
+weird_horse_desc = "Zu Beginn deines Zuges verschiebst du ein zufälliges Monster in einen zufälligen Abschnitt und fügst ihm zufälligen Schaden (zwischen 1 und 10) zu."
+
+
+car_retributionpotion_hex_desc = "Bis zur nächsten Runde wird jedes Monster, das dich angreift und Schaden verursacht, der geringer oder gleich deinem Gift ist, in deinem nächsten Zug betäubt. \nErhalte \7 Gift."
+car_retributionpotion_hex_title = "Vergeltungstrank"
+
+car_healpotion_hex_desc = "Zu Beginn deines Zuges heilst du HP in Höhe des aktuellen Giftwerts. Hält 3 Züge lang an. \nErhalte \7 Gift."
+car_healpotion_hex_title = "Heiltrank"
+
+car_replicationpotion_hex_desc = "Kopiere die nächste Karte, die du spielst, mit Kosten von 0 auf deine Hand. Wenn du \6 oder mehr Gift hast, kopiere eine weitere Karte.\nErhalte \7 Gift. \^debf56Erschöpfung\^^."
+car_replicationpotion_hex_title = "Replikations-Trank"
+
+car_ragepotion_hex_desc = "Erhöhe den Schaden durch Gift. Hält 3 Runden lang an.\nErhalte \7 Gift."
+car_ragepotion_hex_title = "Wut-Trank"
+
+car_hastepotion_hex_desc = "Erhalte 1 zusätzliches Mana für Gift + \8 Runden (\5 insgesamt).\nErhalte \7 Gift."
+car_hastepotion_hex_title = "Eiltrank"
+
+car_guardpotion_hex_desc = "Zu Beginn deines Zuges erhältst du eine Blockung in Höhe von Gift. Hält 3 Runden lang an.\nErhalte \7 Gift."
+car_guardpotion_hex_title = "Schutztrank"
+
+car_burn_hex_desc = "Verursache 2 + 2-maligen Giftschaden in einem kleinen Radius. \n(\1 insgesamt)\n\^debf56Exhaust\^^."
+car_burn_hex_title = "Verbrennen"
+
+car_forcewave_hex_desc = "Stoße Gegner in einem mittleren Kegel von naher bis ferner Reichweite zurück. Wenn du \6 oder mehr Gift hast, friere sie ein."
+car_forcewave_hex_title = "Kraftwelle"
+
+car_scorchingwave_hex_desc = "Verursacht 2 + Giftschaden in einem kurzen Kegel.\n(\1 insgesamt)\nFüge \^d0d0ffVerbrennen\^^ zur Hand hinzu."
+car_scorchingwave_hex_title = "Scorching Wave"
+
+car_mindshackle_hex_desc = "Wähle ein Monster aus und füge einem zufälligen Monster Schaden in Höhe seiner Stärke zu. Wenn du \8 oder mehr Gift hast, wird der Schaden verdoppelt.\n(\1 insgesamt)"
+car_mindshackle_hex_title = "Mind Shackle"
+
+car_hexzone_hex_desc = "Zu Beginn deines Zuges füge allen Monstern in deiner Nähe 1 Schaden für 2 + Gift-Runden zu.\n(\2 Runden insgesamt)"
+car_hexzone_hex_title = "Hex Zone"
+
+car_guardiansshield_hex_desc = "Nachdem das nächste 1 + Gift-Monster angreift (\2), heile den absorbierten Schaden. "
+car_guardiansshield_hex_title = "Wächter-Schild"
+
+
+car_swordthrust_hex_title = "Schwertstich"
+car_swordthrust_hex_desc = "Füge dem ersten Monster in einem langen, schmalen Kegel \1 Schaden zu."
+
+car_quickstab_hex_title = "Schneller Stich"
+car_quickstab_hex_desc = "Verursache \1 Schaden.\nWenn das Monster dadurch getötet wird, nimm diese Karte zurück auf deine Hand."
+
+car_crowdcontrol_hex_title = "Massenkontrolle"
+car_crowdcontrol_hex_desc = "Verursache \1 Schaden in einem kleinen Radius. Multipliziere diesen Schaden mit der Anzahl der betroffenen Monster, jedoch nicht mehr als das aktuelle Gift."
+
+car_pommelstrike_hex_title = "Knaufschlag"
+car_pommelstrike_hex_desc = "Füge 1 Schaden und \^debf56stun\^^ zu."
+
+car_redirection_hex_title = "Umleitung"
+car_redirection_hex_desc = "Verursache \1 Schaden.\nWenn das Monster angreifen will, addiere seine Stärke zum Schaden."
+
+car_armorfracture_hex_title = "Rüstungsbruch"
+car_armorfracture_hex_desc = "Wenn das Monster \^debf56block\^^ hat, füge unblockbaren Schaden in Höhe seines \^debf56block\^^ zu. Andernfalls füge \1 Schaden zu."
+
+car_crowdcrusher_hex_title = "Massenvernichter"
+car_crowdcrusher_hex_desc = "Verursache \1 Schaden in einem mittleren Radius. Multipliziere diesen Schaden mit der Anzahl der betroffenen Monster, jedoch nicht mehr als das aktuelle Gift."
+
+car_precisestrike_hex_title = "Präziser Schlag"
+car_precisestrike_hex_desc = "Verursache \1 nicht blockbaren Schaden.\n\^debf56Fokus\^^ mit x\5 Schaden. Nach dem Ausspielen dieser Karte wird der Schaden auf \6 zurückgesetzt."
+
+car_easypreys_hex_title = "Leichte Beute"
+car_easypreys_hex_desc = "Töte \5 Nicht-Boss-Monster mit den wenigsten HP."
+
+car_bladedance_hex_title = "Klingentanz"
+car_bladedance_hex_desc = "Füge jedem Monster in einem großen Radius Schaden in Höhe seiner Stärke zu. Wenn die Absicht des Monsters Angriff ist, x\5 Schaden."
+
+
+car_innercontrol_hex_title = "Innere Kontrolle"
+car_innercontrol_hex_desc = "Erhalte \^debf56block\^^ in Höhe von \2 + Gift.\n(\7 insgesamt)"
+
+car_beer_hex_title = "Bier"
+car_beer_hex_desc = "Erhalte \5 Gift."
+
+car_enhancedguardian_hex_title = "Verbesserter Wächter"
+car_enhancedguardian_hex_desc = "Gib allen Helden \^debf56block\^^ in Höhe von \2 + Gift.\n(\7 insgesamt)"
+
+car_poisonedbarrier_hex_title = "Vergiftete Barriere"
+car_poisonedbarrier_hex_desc = "Erhalte \5 Gift.\nGib allen Helden \^debf56block\^^ gleich \2 + Gift x\6.\n(\7 insgesamt)"
+
+car_metabolizetoxin_hex_title = "Gift metabolisieren"
+car_metabolizetoxin_hex_desc = "Erhalte \5 Mana.\nWenn du \^d0d0ffToxin\^^ auf der Hand hast, \^debf56verbrauche\^^ sie und erhalte \6 Mana für jede Karte."
+
+car_freezingsurge_hex_title = "Eisiger Stoß"
+car_freezingsurge_hex_desc = "\^debf56Friere\^^ Monster in einem langen mittleren Kegel ein. Wenn du \5 oder mehr Gift hast, \^debf56Friere\^^ auch Monster in Nahbereich ein."
+
+car_iceoverload_hex_title = "Eisüberladung"
+car_iceoverload_hex_desc = "\^debf56Friere\^^ alle Monster ein.\nErhalte \5 Gift."
+
+car_purifyinghaste_hex_title = "Reinigende Eile"
+car_purifyinghaste_hex_desc = "\^debf56Verbrauchen\^^ alle \^d0d0ffToxin\^^ aus deinem Deck. Alle Helden erhalten Mana und ziehen Karten im Wert von 1/\5 der verbrauchten \^d0d0ffToxin\^^, jedoch nicht weniger als \6.\n(\7 insgesamt)."
+
+car_cleansingaura_hex_title = "Reinigende Aura"
+car_cleansingaura_hex_desc = "Verleiht allen Helden \^debf56block\^^ in Höhe von \2x Gift (\7 insgesamt). Heilt alle Helden um 1/\5 Gift (\8 insgesamt).\nSetzt Gift auf 0."
+
+
+influence_retribution_desc = "Jedes Monster, das dich angreift und Schaden verursacht, der geringer oder gleich deinem Gift ist, wird in deinem nächsten Zug betäubt."
+influence_retribution_name = "Vergeltungstrank"
+
+influence_heal_desc = "Zu Beginn deines Zuges heile HP in Höhe des aktuellen Gifts."
+influence_heal_name = "Heiltrank"
+
+influence_replication_desc = "Wenn du eine Karte ausspielst, wird sie mit Kosten von 0 auf deine Hand kopiert."
+influence_replication_name = "Replikations-Trank"
+
+influence_rage_desc = "Erhöhe den Schaden um den Wert des Giftes."
+influence_rage_name = "Wut-Trank"
+
+influence_haste_desc = "Erhalte 1 zusätzliches Mana."
+influence_haste_name = "Eiltrank"
+
+influence_guard_desc = "Zu Beginn deines Zuges erhältst du eine Blockung in Höhe des Giftes."
+influence_guard_name = "Schutztrank"
+
+influence_hex_zone_desc = "Zu Beginn deines Zuges fügst du allen Monstern in deiner Nähe 1 Schaden zu."
+influence_hex_zone_name = "Verhexungszone"
+
+influence_guardians_shield_desc = "Heile nach einem Monsterangriff HP in Höhe des absorbierten Schadens."
+influence_guardians_shield_name = "Wächter-Schild"
+
+
+keyword_poison_desc = "Gift fließt durch die Adern des Charakters und wird mit jedem Schluck stärker. Bald wird der Charakter die Folgen des Konsums zu spüren bekommen."
+keyword_poison_title = "Gift"
+
+keyword_potion_desc = "Eine mächtige magische Mixtur, die dich während ihrer gesamten Wirkungsdauer mit Gift infiziert."
+keyword_potion_title = "Trank"
+
+adventure_location_abandonednest_map = "Ein verlassenes Nest \^ffffff, in dem Sie \^cdb991zufällige Artefakte\^^ erhalten, mehr \^cdb991Mana\^^ sammeln oder \^cdb991eine Karte auswählen können, mit der Sie zukünftige Kämpfe beginnen können\^^"
+adventure_location_abandonednest = "Verlassenes Nest"
+adventure_location_investigate_title = "Untersuchen"
+adventure_location_investigate_desc = "Erhalte ein zufälliges Artefakt beliebiger Seltenheit"
+adventure_location_investigate_alter_desc = "Erhalte ein zufälliges Artefakt beliebiger Seltenheit (keine Artefakte verfügbar)"
+adventure_location_prepare_title = "Vorbereiten"
+adventure_location_prepare_desc = "Wähle eine Karte aus deinem Deck aus. Du beginnst zukünftige Kämpfe mit dieser Karte auf der Hand."
+adventure_location_prepare_alter_desc = ""
+adventure_location_brewamanapotion_title = "Braue einen Manatrunk"
+adventure_location_brewamanapotion_desc = "+1 Manapunkte im nächsten Kampf"
+adventure_location_brewamanapotion_alter_desc = ""
+
+emo_rainbow_hex_name = "Regenbogen"
+
+hex_003 = "Himmel, gib mir Kraft! Ich werde dich nicht enttäuschen!"
+hex_004 = "Ich werde meinen Zorn über dich ergießen!"
+hex_009 = "Angriff!"
+hex_010 = "LEEEEEEEEEROY JENKINS!"
+hex_014 = "Komm schon!"
+hex_018 = "Hallo, Dunkelheit, meine alte Freundin."
+hex_020 = "Nimm das!"
+hex_021 = "Ich siege!"
+hex_024 = "Was für eine unheilige Schöpfung ist das?"
+hex_025 = "Ich bin das Schwert, das die Dunkelheit spaltet."
+hex_026 = "Begegne deinem Untergang!"
+hex_027 = "Nicht mit mir!"
+hex_028 = "Das gefällt mir!"
+hex_029 = "Großartig!"
+hex_030 = "Schön!"
+hex_031 = "Gesegnet sei diese Stunde!"
+hex_035 = "Puh, du kannst dir nicht vorstellen, wie sehr ich unter all diesen Rüstungsschichten schwitze."
+hex_036 = "Ruhe in Frieden!"
+hex_037 = "Für solche Kämpfe lebe ich."
+hex_038 = "Das war ein beeindruckender Gegner."
+
+################################################# ##########################################################
+# MONSTER
+####################################################################################### ############
+
+skeletoncaptain_name = "Skelettkapitän"
+avalanche_name = "Lawine"
+avalanche_desc = "Fügt allen Helden Schaden zu."
+death_call_name = "Todesschrei" 
+death_call_desc = "Verleiht bei Tod allen Monstern in einem großen Umkreis +5 Stärke."
