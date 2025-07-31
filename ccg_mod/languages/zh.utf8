@@ -1,0 +1,192 @@
+almanac_hexer_cards = "Hexer Cards"
+almanac_starting_hexer = "Starting (Hexer)"
+almanac_hexer_plural = "Hexers"
+
+outfit_hexer_name = "六角星"
+
+hexer_desc_fluff = "变异，从小接受训练，只做一件事： \杀死怪物 这个可怕的猎人利用他的格斗训练 有用的力量和一点点魔法来战胜他的敌人"
+
+hexer_disp_name = "Hexer"
+hexer_disp_name_cap = "HEXER"
+
+
+poison_influence_desc = "代表角色的毒性水平。每当计数器增加一次，就在抽牌堆中加入与增加数量相等的毒药牌。当计数器达到 0 时，毒药会被移除。"
+poison_influence_name = "毒药"
+
+car_toxin_hex_title = "毒素"
+car_toxin_hex_desc = "弃牌时，对玩家造成（1）次伤害。出牌和弃牌时都会造成伤害。"
+
+
+silver_sword_name = "银剑"
+silver_sword_desc = "你的剑对你拥有的每一种毒造成 +1 伤害。"
+
+medallion_name = "奖章"
+medallion_desc = "在你的回合开始时，你的片中每一只怪物获得 1 个格挡。"
+
+weird_horse_name = "怪马"
+weird_horse_desc = "在你的回合开始时，将一只随机怪物移动到一个随机区域，对其造成随机伤害（1 到 10 之间）。"
+
+car_retributionpotion_hex_desc = "直到下一回合，每只攻击你并造成低于或等于你的剧毒伤害的怪物，都会在你的下一回合被眩晕。"
+car_retributionpotion_hex_title = "报应药水"
+
+car_healpotion_hex_desc = "在你的回合开始时，治疗等同于当前中毒值的 HP。持续 3 个回合。\nGain \7 Poison."
+car_healpotion_hex_title = "治疗药水"
+
+car_replicationpotion_hex_desc = "将你下一张牌复制到你的手牌中，复制成本为 0。 如果你有\6 或更多的毒药，再复制一张。\^debf56Exhaust\^^."
+car_replicationpotion_hex_title = "复制药水"
+
+car_replicationpotion_hex_desc = "增加毒药伤害。持续 3 个回合。\nGain \7 Poison."
+car_ragepotion_hex_title = "狂暴药水"
+
+car_hastepotion_hex_desc = "毒药+8回合（共5回合）获得1额外法力值。\nGain \7 Poison."
+car_hastepotion_hex_title = "急速药剂"
+
+car_guardpotion_hex_desc = "在你的回合开始时获得等同于中毒的阻挡。持续 3 个回合。\nGain \7 Poison."
+car_guardpotion_hex_title = "守卫药水"
+
+car_burn_hex_descle = "在小半径范围内造成 2 + 2 倍中毒伤害。"
+car_burn_hex_title = "燃烧"
+
+car_forcewave_hex_desc = "将中等锥形范围内的敌人从近处推向远处。如果你有\6 或更多毒药，则冻结他们。"
+car_forcewave_hex_title = "力波"
+
+car_scorchingwave_hex_desc = "在短锥形范围内造成 2 + 毒药伤害。\n(\1 共)\n Add \^d0d0ffBurn\^^^ to hand."
+car_scorchingwave_hex_title = "灼烧波"
+
+car_mindshackle_hex_desc = "选择一只怪兽并对随机一只怪兽造成等同于其强度的伤害。如果你有\8 或更多的毒药，伤害会翻倍。\n(\1 总计)"
+car_mindshackle_hex_title = "Mind Shackle" (心灵枷锁)
+
+car_hexzone_hex_descle = "在你的回合开始时，对近距离内的所有怪物造成 1 点伤害，持续 2 + 毒药回合。\n(共 2 个回合)"
+car_hexzone_hex_title = "六角区域"
+
+car_guardiansshield_hex_desc = "在下一次 1 + Poison 怪物攻击后（2），治疗所吸收的伤害。"
+car_guardiansshield_hex_title = "守护者之盾"
+
+
+car_swordthrust_hex_title = "剑刺"
+car_swordthrust_hex_desc = "对狭长锥形范围内的第一个怪物造成 （1）次伤害"
+
+car_quickstab_hex_title = "快速刺击"
+car_quickstab_hex_desc = "造成（1）次伤害。如果杀死了怪物，则将此卡返回手牌。"
+
+car_crowdcontrol_hex_title = "人群控制"
+car_crowdcontrol_hex_desc = "在小范围内造成 1 伤害。将此伤害乘以受影响怪物的数量，但不超过当前中毒数量。"
+car_pommelstrike_hex_title = "护手打击"
+car_pommelstrike_hex_desc = "造成 \1 点伤害并 \^debf56stun\^^。"
+
+car_redirection_hex_title = "重定向"
+car_redirection_hex_desc = "造成 \1 点伤害。如果怪物的意图是攻击，将其力量加到伤害上。"
+
+car_armorfracture_hex_title = "护甲破碎"
+car_armorfracture_hex_desc = "如果怪物有 \^debf56block\^^，造成等于其 \^debf56block\^^ 的无法阻挡的伤害。否则，造成 \1 点伤害。"
+
+car_crowdcrusher_hex_title = "人群粉碎者"
+car_crowdcrusher_hex_desc = "在中等范围内造成 \1 点伤害。将此伤害乘以受影响的怪物数量，但不超过当前中毒值。"
+
+car_precisestrike_hex_title = "精准打击"
+car_precisestrike_hex_desc = "造成 \1 点无法被阻挡的伤害。\n\^debf56Focus\^^ 并造成 x\5 点伤害。使用此卡后将伤害重置为 \6。"
+
+car_easypreys_hex_title = "轻松猎物"
+car_easypreys_hex_desc = "击杀 \5 生命值最低的非首领怪物。"
+
+car_bladedance_hex_title = "刀舞"
+car_bladedance_hex_desc = "对大型范围内的每个怪物造成等于其力量的伤害。若怪物的意图为攻击，则造成 x\5 伤害。"
+car_innercontrol_hex_title = "内部控制"
+car_innercontrol_hex_desc = "获得 \^debf56block\^^ 等于 \2 + 毒药。\n(\7 总计)"
+
+car_beer_hex_title = "啤酒"
+car_beer_hex_desc = "获得 \5 毒性"
+
+car_enhancedguardian_hex_title = "强化守护者"
+car_enhancedguardian_hex_desc = "为所有英雄提供 \^debf56block\^^ 等于 \2 + 毒性。\n(\7 总计)"
+
+car_poisonedbarrier_hex_title = "中毒屏障"
+car_poisonedbarrier_hex_desc = "获得 \5 毒性。\n为所有英雄提供 \^debf56block\^^ 等于 \2 + 毒性 ×\6 的效果。\n（总计 \7）"
+
+car_metabolizetoxin_hex_title = "代谢毒素"
+car_metabolizetoxin_hex_desc = "获得 \5 法力值。\n如果你手中有 \^d0d0ffToxin\^^，消耗它们并为每个获得 \6 法力值。"
+
+car_freezingsurge_hex_title = "冰冻冲击"
+car_freezingsurge_hex_desc = "\^debf56冻结\^^长中锥形范围内的怪物。如果你拥有\5或更多毒药，\^debf56冻结\^^近距离范围内的怪物。"
+
+car_iceoverload_hex_title = "冰霜过载"
+car_iceoverload_hex_desc = "\^debf56冻结\^^ 所有怪物。\n获得\5毒性。"
+
+car_purifyinghaste_hex_title = "净化加速"
+car_purifyinghaste_hex_desc = "\^debf56清除\^^ 所有 \^d0d0ff毒素\^^ 你的牌组。所有英雄获得法力值并抽取等于已清除 \^d0d0ff毒素\^^ 的 1/\5 倍的卡片，但不少于 \6。\n(\7 总计)。"
+
+car_cleansingaura_hex_title = "净化光环"
+car_cleansingaura_hex_desc = "给所有英雄相当于 2x 的毒性（总共 7）。治疗所有英雄1/5的中毒（共8次）。\n设置中毒为0"
+
+
+influence_retribution_desc = "每只攻击你并造成低于或等于你的剧毒伤害的怪物都会在你的下一回合被眩晕。"
+influence_retribution_name = "报应药水"
+
+influence_heal_desc = "在你的回合开始时，治疗等于当前中毒值的 HP。"
+influence_heal_name = "治疗药剂"
+
+influence_replication_desc = "当你打出一张牌时，它将被复制到你的手牌中，复制费用为 0。"
+influence_replication_name = "复制药水"
+
+influence_rage_desc = "增加毒药的伤害。"
+influence_rage_name = "狂暴药水"
+
+influence_haste_desc = "获得 1 点额外法力值。"
+influence_haste_name = "急速药水"
+
+influence_guard_desc = "在你的回合开始时，获得与毒药等量的阻挡。"
+influence_guard_name = "守护药水"
+
+influence_hex_zone_desc = "在你的回合开始时，对附近范围内的所有怪物造成 1 点伤害。"
+influence_hex_zone_name = "六角区域"
+
+influence_guardians_shield_desc = "怪物攻击后，治疗等于吸收伤害的 HP。"
+influence_guardians_shield_name = "守护者之盾"
+
+keyword_potion_desc = "一种强大的魔法药水，会在整个持续时间内让你中毒。"
+keyword_potion_title = "药水"
+
+adventure_location_abandonednest_map = "一个废弃的巢穴 \^ffffff在这里你可以获得 \^cdb991随机物品\^^，获取更多 \^cdb991法力值\^^ 或 \^cdb991选择一张卡牌以备未来战斗使用\^^"
+adventure_location_abandonednest = "废弃的巢穴"
+adventure_location_investigate_title = "调查"
+adventure_location_investigate_desc = "获得一个随机的 adventure_location_investigate_alter_desc = "随机获得一件任意稀有度的神器（无神器可用）"
+adventure_location_prepare_title = "准备"
+adventure_location_prepare_desc = "从你的卡组中选择一张牌。你将以手中的这张牌开始未来的战斗"
+
+adventure_location_prepare_alter_desc = ""
+adventure_location_brewamanapotion_title = "酿造魔力药水"
+adventure_location_brewamanapotion_desc = "在下一场战斗中获得+1魔力点数"
+adventure_location_brewamanapotion_alter_desc = ""
+
+emo_rainbow_hex_name = "彩虹"
+
+hex_003 = "上天，赐予我力量！我绝不会让你们失望！"
+hex_004 = "我将倾泻我的怒火于你身上！"
+hex_009 = "冲啊！"
+hex_010 = "LEEEEEEEEEROY JENKINS！"
+hex_014 = "来吧，我等你呢！"
+hex_018 = "你好，黑暗，我的老朋友。"
+hex_020 = "接招吧！"
+hex_021 = "我胜利了！"
+hex_024 = "这是什么不洁的造物！"
+hex_025 = "我是劈开黑暗的利剑。"
+hex_026 = "迎接你的末日吧！"
+hex_027 = "在我值班时绝不会发生！"
+hex_028 = "我喜欢这样！"
+hex_029 = "太棒了！"
+hex_030 = "不错！"
+hex_031 = "祝福这时刻！"
+hex_035 = "呼，你无法想象我在这层层铠甲下有多么汗流浃背。"
+hex_036 = "安息吧！"
+hex_037 = "我就是为了这种战斗而活"
+hex_038 = "这真是个强大的对手"
+
+################################################# ##########################################################
+# 怪物
+############################################################################################### ############
+
+skeletoncaptain_name = "骷髅船长"
+avalanche_name = "雪崩"
+avalanche_desc = "对所有英雄造成伤害。"
+death_call_name = "死亡召唤" 
+death_call_desc = "死亡时，在大片范围内为怪物提供+5力量"

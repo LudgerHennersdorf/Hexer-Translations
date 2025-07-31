@@ -1,0 +1,199 @@
+almanac_hexer_cards = "Карты чародея"
+almanac_starting_hexer = "Начальный (чародей)"
+almanac_hexer_plural = "Чародеи"
+
+outfit_hexer_name = "Чародей"
+
+hexer_desc_fluff = "Мутировавший и с детства обученный делать только одно: \^00FFFFубивать монстров\^^. Этот грозный охотник использует свое \^00FFFFбоевое обучение\^^, полезные \^00FFFFзелья\^^ и немного \^00FFFFмагии\^^, чтобы одержать верх над своими врагами"
+
+hexer_disp_name = "Hexer"
+hexer_disp_name_cap = "HEXER"
+
+
+poison_influence_desc = "Отражает уровень токсичности персонажа. Каждый раз, когда счетчик увеличивается, добавьте в колоду карт количество карт \^d0d0ffToxin\^^, равное увеличению. Когда счетчик достигает 0, яд удаляется"
+poison_influence_name = "Яд"
+
+car_toxin_hex_title = "Токсин"
+car_toxin_hex_desc  = "При сбросе наносит игроку \1 повреждения.\n\^debf56Exhaust\^^ при игре и при сбросе"
+
+
+silver_sword_name = "Серебряный меч"
+silver_sword_desc = "Ваши мечи наносят +1 урон за каждый яд, который у вас есть"
+
+medallion_name = "Медальон"
+medallion_desc = "В начале вашего хода получайте 1 блок за каждого монстра в вашем сегменте"
+
+weird_horse_name = "Странная лошадь"
+weird_horse_desc = "В начале вашего хода переместите случайного монстра в случайный раздел и нанесите ему случайный урон (от 1 до 10)"
+
+
+car_retributionpotion_hex_desc = "До следующего раунда каждый монстр, который атакует вас и наносит урон, меньший или равный вашему отравлению, будет оглушен в вашем следующем ходу. Получите \7 отравления"
+car_retributionpotion_hex_title = "Зелье возмездия"
+
+car_healpotion_hex_desc = "В начале своего хода исцелите HP, равное текущему отравлению. Действует в течение 3 ходов.\nПолучите \7 отравления"
+car_healpotion_hex_title = "Зелье исцеления"
+
+car_replicationpotion_hex_desc = "Скопируйте следующую карту, которую вы сыграете, в свою руку со стоимостью 0. Если у вас \6 или более яда, скопируйте еще одну. \nПолучите \7 яда. \^debf56Exhaust\^^"
+car_replicationpotion_hex_title = "Зелье копирования"
+
+car_ragepotion_hex_desc = "Увеличивает урон от яда. Действует 3 хода.\nПолучите \7 яда"
+car_ragepotion_hex_title = "Зелье ярости"
+
+car_hastepotion_hex_desc = "Получите 1 дополнительную ману за яд + \8 ходов (\5 всего).\ Получите \7 яда."
+car_hastepotion_hex_title = "Зелье ускорения"
+
+car_guardpotion_hex_desc = "В начале вашего хода получите блок, равный яду. Действует 3 хода.\nПолучите \7 яда."
+car_guardpotion_hex_title = "Зелье защиты"
+
+car_burn_hex_desc = "Нанесите 2 + 2 раза урон от яда в небольшом радиусе.\n(\1 всего)\n\^debf56Exhaust\^^"
+car_burn_hex_title = "Ожог"
+
+car_forcewave_hex_desc = "Оттолкните врагов в среднем конусе с ближнего расстояния на дальнее. Если у вас \6 или более яда, заморозьте их."
+car_forcewave_hex_title = "Волна силы"
+
+car_scorchingwave_hex_desc = "Наносит 2 + урон ядом в коротком конусе.\n(\1 всего)\nДобавляет \^d0d0ffСжечь\^^ в руку."
+car_scorchingwave_hex_title = "Палящая волна"
+
+car_mindshackle_hex_desc = "Выберите монстра и нанесите урон, равный его силе, случайному монстру. Если у вас есть \8 или более яда, урон удваивается.\n(\1 всего)"
+car_mindshackle_hex_title = "Умственные оковы"
+
+car_hexzone_hex_desc = "В начале вашего хода нанесите 1 ед. урона всем монстрам в ближнем диапазоне в течение 2 + яда ходов.\n(\2 ходов всего)"
+car_hexzone_hex_title = "Зона проклятия"
+
+car_guardiansshield_hex_desc = "После следующей атаки 1 + яда монстра (\2) исцелите поглощенный урон. "
+car_guardiansshield_hex_title = "Щит стражей"
+
+car_swordthrust_hex_title = "Удар мечом"
+car_swordthrust_hex_desc = "Нанесите \1 ед. урона первому монстру в длинном узком конусе."
+
+car_quickstab_hex_title = "Быстрый удар"
+car_quickstab_hex_desc = "Наносит \1 урона.\nЕсли монстр погибает, верните эту карту в свою руку"
+
+car_crowdcontrol_hex_title = "Контроль толпы"
+car_crowdcontrol_hex_desc = "Наносит \1 урона в небольшом радиусе. Умножьте этот урон на количество затронутых монстров, но не более, чем текущий яд"
+
+car_pommelstrike_hex_title = "Удар рукоятью"
+car_pommelstrike_hex_desc = "Нанесите 1 ед. урона и оглушите"
+
+car_redirection_hex_title = "Перенаправление"
+car_redirection_hex_desc = "Наносит 1 ед. урона.\nЕсли монстр намеревается атаковать, добавляет свою силу к урону"
+
+car_armorfracture_hex_title = "Разрушение брони"
+car_armorfracture_hex_desc = "Если у монстра есть \^debf56block\^^, нанесите незаблокируемый урон, равный его \^debf56block\^^. В противном случае нанесите \1 урон"
+
+car_crowdcrusher_hex_title = "Разрушитель толпы"
+car_crowdcrusher_hex_desc = "Наносит \1 урона в среднем радиусе. Умножьте этот урон на количество затронутых монстров, но не более, чем текущий яд"
+
+car_precisestrike_hex_title = "Точный удар"
+car_precisestrike_hex_desc = "Нанесите \1 непоблокируемого урона.\n\^debf56Focus\^^ с x\5 урона. После использования этой карты сбросьте урон до \6"
+
+car_easypreys_hex_title = "Легкая добыча"
+car_easypreys_hex_desc = "Убейте \5 монстров, не являющихся боссами, с наименьшим количеством HP"
+
+car_bladedance_hex_title = "Танец клинков"
+car_bladedance_hex_desc = "Нанесите каждому монстру в большом радиусе урон, равный его силе. Если намерение монстра — атака, x\5 урона"
+
+
+car_innercontrol_hex_title = "Внутренний контроль"
+car_innercontrol_hex_desc = "Получите \^debf56block\^^, равный \2 + яд.\n(\7 всего)"
+
+car_beer_hex_title = "Пиво"
+car_beer_hex_desc = "Получите \5 яда"
+
+car_enhancedguardian_hex_title = "Усиленный страж"
+car_enhancedguardian_hex_desc = "Дайте \^debf56block\^^, равный \2 + яд, всем героям.\n(\7 всего)"
+
+car_poisonedbarrier_hex_title = "Отравленный барьер"
+car_poisonedbarrier_hex_desc = "Получите \5 яда.\nДайте \^debf56block\^^, равное \2 + яд x\6, всем героям.\n(\7 всего)"
+
+car_metabolizetoxin_hex_title = "Метаболизировать токсин"
+car_metabolizetoxin_hex_desc = "Получите \5 маны.\nЕсли у вас есть \^d0d0ffТоксин\^^ в руке, \^debf56Исчерпайте\^^ их и получите \6 маны за каждый"
+
+car_freezingsurge_hex_title = "Замораживающий всплеск"
+car_freezingsurge_hex_desc = "\^debf56Заморозьте\^^ монстров в длинном среднем конусе. Если у вас \5 или более яда, \^debf56Заморозьте\^^ также монстров в ближнем диапазоне"
+
+car_iceoverload_hex_title = "Ледяная перегрузка"
+car_iceoverload_hex_desc = "\^debf56Заморозьте\^^ всех монстров.\nПолучите \5 яда"
+
+car_purifyinghaste_hex_title = "Очищающая скорость"
+car_purifyinghaste_hex_desc = "\^debf56Израсходуйте\^^ весь \^d0d0ffТоксин\^^ из вашей колоды. Все герои получают ману и берут карты, равные 1/\5 израсходованного \^d0d0ffТоксина\^^, но не менее \6.\n(\7 всего)."
+
+car_cleansingaura_hex_title = "Очищающая аура"
+car_cleansingaura_hex_desc = "Дайте \^debf56block\^^, равный \2x яда (\7 всего), всем героям. Исцелите всех героев на 1/\5 яда (\8 всего).\nУстановите яд на 0"
+
+
+influence_retribution_desc = "Каждый монстр, который атакует вас и наносит урон, меньший или равный вашему яду, будет оглушен в ваш следующий ход"
+influence_retribution_name = "Зелье возмездия"
+
+influence_heal_desc = "В начале вашего хода исцелите HP, равное текущему яду"
+influence_heal_name = "Зелье исцеления"
+
+influence_replication_desc = "Когда вы играете карту, она копируется в вашу руку со стоимостью 0"
+influence_replication_name = "Зелье копирования"
+
+influence_rage_desc = "Увеличьте урон на величину яда"
+influence_rage_name = "Зелье ярости"
+
+influence_haste_desc = "Получите 1 дополнительную ману"
+influence_haste_name = "Зелье быстроты"
+
+influence_guard_desc = "В начале вашего хода получите блокировку, равную яду"
+influence_guard_name = "Зелье защиты"
+
+influence_hex_zone_desc = "В начале вашего хода нанесите 1 ед. урона всем монстрам в ближнем диапазоне"
+influence_hex_zone_name = "Зона проклятия"
+
+influence_guardians_shield_desc = "После атаки монстра восстановите HP, равное поглощенному урону"
+influence_guardians_shield_name = "Щит стражей"
+
+
+keyword_poison_desc = "Яд течет по венам персонажа, с каждым глотком его сила растет. Вскоре персонаж почувствует последствия его потребления"
+keyword_poison_title = "Яд"
+
+keyword_potion_desc = "Мощное магическое зелье, которое накладывает на вас яд на весь период его действия"
+keyword_potion_title = "Зелье"
+
+adventure_location_abandonednest_map = "Заброшенное гнездо, где вы можете получить случайные артефакты, получить больше маны или выбрать карту для начала будущих сражений"
+adventure_location_abandonednest = "Заброшенное гнездо"
+adventure_location_investigate_title = "Исследовать"
+adventure_location_investigate_desc = "Получите случайный артефакт любой редкости"
+adventure_location_investigate_alter_desc = "Получите случайный артефакт любой редкости (артефакты недоступны)"
+adventure_location_prepare_title = "Подготовка"
+adventure_location_prepare_desc = "Выберите карту из своей колоды. Вы начнете будущие сражения с этой картой на руках"
+adventure_location_prepare_alter_desc = ""
+adventure_location_brewamanapotion_title = "Приготовить зелье маны"
+adventure_location_brewamanapotion_desc = "+1 очко маны в следующем сражении"
+adventure_location_brewamanapotion_alter_desc = ""
+
+emo_rainbow_hex_name = "Радуга"
+
+hex_003 = "Небеса, дайте мне силы! I will not fail you!"
+hex_004 = "I will pour my wrath upon you!"
+hex_009 = "Chaaarge!"
+hex_010 = "LEEEEEEEEEROY JENKINS!"
+hex_014 = "Bring it on! "
+hex_018 = "Здравствуй, тьма, мой старый друг!"
+hex_020 = "Возьми это!"
+hex_021 = "Я побеждаю!"
+hex_024 = "Что это за нечестивое творение!?"
+hex_025 = "Я - меч, раскалывающий тьму. "
+hex_026 = "Встреть свою гибель!"
+hex_027 = "Не при мне!"
+hex_028 = "Мне это нравится!"
+hex_029 = "Отлично!"
+hex_030 = "Мило!"
+hex_031 = "Благословен час! "
+hex_035 = "Фух, ты не представляешь, как я вспотел под всеми этими слоями брони"
+hex_036 = "Отдыхай!"
+hex_037 = "Я живу ради таких боев"
+hex_038 = "Это был грозный противник"
+
+###########################################################################################################
+# МОНСТРЫ
+###########################################################################################################
+
+skeletoncaptain_name = "Капитан-скелет"
+avalanche_name = "Лавина"
+avalanche_desc = "Наносит урон всем героям"
+death_call_name = "Зов смерти" 
+death_call_desc = "При смерти дает +5 силы монстрам в большом радиусе"

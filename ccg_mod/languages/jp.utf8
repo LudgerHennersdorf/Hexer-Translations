@@ -1,0 +1,200 @@
+almanac_hexer_cards = "呪術師カード"
+almanac_starting_hexer = "初期デッキ (呪術師)"
+almanac_hexer_plural = "呪術師たち"
+
+outfit_hexer_name = "呪術師"
+
+hexer_desc_fluff = "子供の頃からただ一つのこと、すなわち\^00FFFF魔物退治\^^のためだけに突然変異させられ、訓練されてきた恐るべき狩人。その\^00FFFF戦闘訓練\^^、便利な\^00FFFFポーション\^^、そしてほんの少しの\^00FFFF魔法\^^を駆使して、敵に打ち勝つ。"
+
+hexer_disp_name = "呪術師"
+hexer_disp_name_cap = "呪術師"
+
+
+poison_influence_desc = "キャラクターの毒のレベルを表す。カウンターが増加するたびに、その増加分と同じ枚数の\^d0d0ff毒素\^^カードを山札に加える。カウンターが0になると毒は消える。"
+poison_influence_name = "毒"
+
+car_toxin_hex_title = "毒素"
+car_toxin_hex_desc = "捨て札になった時、プレイヤーに\1ダメージを与える。\n\^debf56プレイ時と捨て札時に消耗\^^。"
+
+
+silver_sword_name = "銀の剣"
+silver_sword_desc = "自分の剣カードは、持っている毒のレベルにつきダメージが+1される。"
+
+medallion_name = "メダリオン"
+medallion_desc = "自分のターンの開始時、自分のスライス（担当区画）にいる敵の数と同じブロックを得る。"
+
+weird_horse_name = "奇妙な馬"
+weird_horse_desc = "自分のターンの開始時、ランダムな敵をランダムな区画に移動させ、ランダムなダメージ（1から10）を与える。"
+
+
+car_retributionpotion_hex_desc = "次のラウンドまで、プレイヤーにダメージを与えてきた、毒のレベル以下の攻撃力の魔物は、次のターンに気絶する。\n毒を\7得る。"
+car_retributionpotion_hex_title = "報復のポーション"
+
+car_healpotion_hex_desc = "3ターンの間、自分のターンの開始時に、現在の毒のレベルと同じHPを回復する。\n毒を\7得る。"
+car_healpotion_hex_title = "回復のポーション"
+
+car_replicationpotion_hex_desc = "次にプレイするカードのコストを0にして、手札にコピーを1枚加える。毒を\6以上持っている場合、さらに1枚コピーする。\n毒を\7得る。\^debf56消耗\^^。"
+car_replicationpotion_hex_title = "複製ポーション"
+
+car_ragepotion_hex_desc = "3ターンの間、毒のレベルと同じだけダメージが増加する。\n毒を\7得る。"
+car_ragepotion_hex_title = "激昂のポーション"
+
+car_hastepotion_hex_desc = "毒のレベル + \8ターンの間（合計\5ターン）、追加でマナを1得る。\n毒を\7得る。"
+car_hastepotion_hex_title = "加速のポーション"
+
+car_guardpotion_hex_desc = "3ターンの間、自分のターンの開始時に、毒のレベルと同じブロックを得る。\n毒を\7得る。"
+car_guardpotion_hex_title = "守りのポーション"
+
+car_burn_hex_desc = "毒のレベルの2倍 + 2ダメージを、狭い範囲に与える。\n（合計\1ダメージ）\n\^debf56消耗\^^。"
+car_burn_hex_title = "燃焼"
+
+car_forcewave_hex_desc = "近くにいる敵を遠くへ押し出す。毒を\6以上持っている場合、敵を凍結させる。"
+car_forcewave_hex_title = "フォースウェーブ"
+
+car_scorchingwave_hex_desc = "短い円錐状の範囲に、毒のレベル + 2ダメージを与える。\n（合計\1ダメージ）\n\^d0d0ff燃焼\^^を手札に加える。"
+car_scorchingwave_hex_title = "焦熱の波動"
+
+car_mindshackle_hex_desc = "敵を1体選び、その敵の攻撃力と同じダメージをランダムな敵1体に与える。毒を\8以上持っている場合、ダメージが2倍になる。\n（合計\1ダメージ）"
+car_mindshackle_hex_title = "精神の枷"
+
+car_hexzone_hex_desc = "自分のターンの開始時に、毒のレベル + \2ターンの間（合計\2ターン）、近くにいる全ての敵に1ダメージを与える。"
+car_hexzone_hex_title = "呪いの領域"
+
+car_guardiansshield_hex_desc = "敵の攻撃を毒のレベル + \1回受けた後（合計\2回）、吸収したダメージと同じHPを回復する。"
+car_guardiansshield_hex_title = "守護者の盾"
+
+
+car_swordthrust_hex_title = "剣による突き刺し"
+car_swordthrust_hex_desc = "長く狭い円錐状の範囲にいる最初の敵に\1ダメージを与える。"
+
+car_quickstab_hex_title = "素早い一突き"
+car_quickstab_hex_desc = "\1ダメージを与える。\nこの攻撃で敵を倒した場合、このカードを手札に戻す。"
+
+car_crowdcontrol_hex_title = "群衆統制"
+car_crowdcontrol_hex_desc = "狭い範囲に\1ダメージを与える。このダメージは、効果範囲内の敵の数だけ増加する（最大で現在の毒のレベルまで）。"
+
+car_pommelstrike_hex_title = "柄頭での一撃"
+car_pommelstrike_hex_desc = "\1ダメージを与え、敵を\^debf56気絶\^^させる。"
+
+car_redirection_hex_title = "方向転換"
+car_redirection_hex_desc = "\1ダメージを与える。\n敵の行動が攻撃の場合、敵の攻撃力をダメージに加える。"
+
+car_armorfracture_hex_title = "装甲破壊"
+car_armorfracture_hex_desc = "敵が\^debf56ブロック\^^を持っている場合、そのブロックと同じ量のブロック貫通ダメージを与える。そうでない場合、\1ダメージを与える。"
+
+car_crowdcrusher_hex_title = "群衆粉砕"
+car_crowdcrusher_hex_desc = "中程度の範囲に\1ダメージを与える。このダメージは、効果範囲内の敵の数だけ増加する（最大で現在の毒のレベルまで）。"
+
+car_precisestrike_hex_title = "精密な一撃"
+car_precisestrike_hex_desc = "\1のブロック貫通ダメージを与える。\n\^debf56集中\^^によりx\5ダメージ。このカードをプレイした後、ダメージは\6に戻る。"
+
+car_easypreys_hex_title = "容易な獲物"
+car_easypreys_hex_desc = "最もHPの低いボスではない敵を\5体倒す。"
+
+car_bladedance_hex_title = "剣の舞"
+car_bladedance_hex_desc = "広い範囲にいる全ての敵に、その敵の攻撃力と同じダメージを与える。敵の行動が攻撃の場合、x\5ダメージ。"
+
+
+car_innercontrol_hex_title = "内なる制御"
+car_innercontrol_hex_desc = "\2 + 毒のレベルの\^debf56ブロック\^^を得る。\n（合計\7ブロック）"
+
+car_beer_hex_title = "ビール"
+car_beer_hex_desc = "毒を\5得る"
+
+car_enhancedguardian_hex_title = "強化された守護者"
+car_enhancedguardian_hex_desc = "全てのヒーローに、\2 + 毒のレベルの\^debf56ブロック\^^を与える。\n（合計\7ブロック）"
+
+car_poisonedbarrier_hex_title = "毒の障壁"
+car_poisonedbarrier_hex_desc = "毒を\5得る。\n全てのヒーローに、\2 + 毒のレベルのx\6の\^debf56ブロック\^^を与える。\n（合計\7ブロック）"
+
+car_metabolizetoxin_hex_title = "毒素の代謝"
+car_metabolizetoxin_hex_desc = "マナを\5得る。\n手札に\^d0d0ff毒素\^^がある場合、それらを\^debf56消耗\^^し、1枚につきマナを\6得る。"
+
+car_freezingsurge_hex_title = "凍結の急襲"
+car_freezingsurge_hex_desc = "長く中程度の円錐状の範囲にいる敵を\^debf56凍結\^^させる。毒を\5以上持っている場合、近くにいる敵も\^debf56凍結\^^させる。"
+
+car_iceoverload_hex_title = "氷の過負荷"
+car_iceoverload_hex_desc = "全ての敵を\^debf56凍結\^^させる。\n毒を\5得る。"
+
+car_purifyinghaste_hex_title = "浄化の加速"
+car_purifyinghaste_hex_desc = "デッキにある\^d0d0ff毒素\^^を全て\^debf56消耗\^^する。全てのヒーローは、消耗した\^d0d0ff毒素\^^の枚数の1/\5 (最低でも\6) に等しいマナを得て、カードを引く。\n（合計\7）"
+
+car_cleansingaura_hex_title = "浄化のオーラ"
+car_cleansingaura_hex_desc = "全てのヒーローに、\2x毒のレベル（合計\7）の\^debf56ブロック\^^を与える。全てのヒーローを1/\5毒のレベル（合計\8）回復させる。\n毒のレベルを0にする"
+
+
+influence_retribution_desc = "プレイヤーにダメージを与えてきた、毒のレベル以下の攻撃力の魔物は、次のターンに気絶する。"
+influence_retribution_name = "報復のポーション"
+
+influence_heal_desc = "自分のターンの開始時、現在の毒のレベルと同じHPを回復する。"
+influence_heal_name = "回復のポーション"
+
+influence_replication_desc = "カードをプレイするたびに、そのカードはコスト0で手札にコピーされる。"
+influence_replication_name = "複製ポーション"
+
+influence_rage_desc = "毒のレベルと同じだけダメージが増加する。"
+influence_rage_name = "激昂のポーション"
+
+influence_haste_desc = "追加でマナを1得る。"
+influence_haste_name = "加速のポーション"
+
+influence_guard_desc = "自分のターンの開始時、毒のレベルと同じブロックを得る。"
+influence_guard_name = "守りのポーション"
+
+influence_hex_zone_desc = "自分のターンの開始時、近くにいる全ての敵に1ダメージを与える。"
+influence_hex_zone_name = "呪いの領域"
+
+influence_guardians_shield_desc = "敵の攻撃を受けた後、吸収したダメージと同じHPを回復する。"
+influence_guardians_shield_name = "守護者の盾"
+
+
+keyword_poison_desc = "キャラクターの血管を流れる毒は、飲むたびにその力を増していく。やがて、その代償を身をもって知ることになるだろう。"
+keyword_poison_title = "毒"
+
+keyword_potion_desc = "効果が続いている間、毒を付与する強力な魔法薬。"
+keyword_potion_title = "ポーション"
+
+adventure_location_abandonednest_map = "\^ffffff忘れ去られた巣\^^ \^ffffffで\^^ \^cdb991ランダムなアーティファクト\^^、追加の\^cdb991マナ\^^、あるいは\^cdb991今後のバトルで手札に加わる開始カード\^^を得られます"
+adventure_location_abandonednest = "忘れ去られた巣"
+adventure_location_investigate_title = "調査する"
+adventure_location_investigate_desc = "任意のレアリティのランダムなアーティファクトを1つ得る"
+adventure_location_investigate_alter_desc = "任意のレアリティのランダムなアーティファクトを1つ得る（アーティファクトは残っていません）"
+adventure_location_prepare_title = "準備する"
+adventure_location_prepare_desc = "デッキからカードを1枚選ぶ。今後のバトルは、このカードが手札にある状態で開始する"
+adventure_location_prepare_alter_desc = ""
+adventure_location_brewamanapotion_title = "マナポーションを醸造する"
+adventure_location_brewamanapotion_desc = "次のバトルでマナを+1得る"
+adventure_location_brewamanapotion_alter_desc = ""
+
+emo_rainbow_hex_name = "虹"
+
+hex_003 = "天よ、私に力を！あなたを失望させはしない！"
+hex_004 = "私の怒りを受けよ！"
+hex_009 = "突撃ー！"
+hex_010 = "リロイ・ジェンキンス！"
+hex_014 = "かかってこい！"
+hex_018 = "ハロー・ダークネス、我が古き友よ。"
+hex_020 = "これを食らえ！"
+hex_021 = "私の勝ちだ！"
+hex_024 = "なんておぞましい化け物だ！？"
+hex_025 = "私は闇を切り裂く剣だ。"
+hex_026 = "終わりにしてやろう！"
+hex_027 = "そうはさせない！"
+hex_028 = "悪くないな！"
+hex_029 = "やったぜ！"
+hex_030 = "いいぞ！"
+hex_031 = "祝福されし時よ！"
+hex_035 = "ふう、こんなに何枚も防具を着ていると、どれだけ汗をかくか想像もつかないだろうな。"
+hex_036 = "安らかに眠れ！"
+hex_037 = "こういう戦いがたまらないね"
+hex_038 = "恐るべき相手だった"
+
+###########################################################################################################
+# MONSTERS
+###########################################################################################################
+
+skeletoncaptain_name = "スケルトン・キャプテン"
+avalanche_name = "アバランチ"
+avalanche_desc = "全てのヒーローにダメージを与える。"
+death_call_name = "死の呼び声"
+death_call_desc = "死亡時、広い範囲にいる敵の攻撃力を+5する。"
