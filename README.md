@@ -1,24 +1,23 @@
-[h1] Hexer mod translation (DE/FR/RU/ZH/JA) [/h1]
-[hr][/hr]
+# Hexer mod translation (DE/FR/RU/ZH/JA)
+
 This mod adds translations to the Hexer mod.
 
 All translations were initially generated using AI tools, as I do not speak or understand these languages myself.
 
 If you notice any errors or want to help improve the translations, your contributions are very welcome!
 
-[h2] Currently supported languages: [/h2] 
-[hr][/hr]
-[list]
-[*][b] German [/b] – made with AI tools
+## Currently supported languages:
 
-[*][b] French [/b] – made with AI tools
+- **German** – made with AI tools
 
-[*][b] Russian [/b] – made with AI tools
+- **French** – made with AI tools
 
-[*][b] Chinese [/b] – made with AI tools
+- **Russian** – made with AI tools
 
-[*][b] Japanese [/b] – taken from the mod: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3537931801] Hexer Class 日本語化  [/url]
-[/list]
+- **Chinese** – made with AI tools
 
-[hr][/hr]
+- **Japanese** – taken from the mod: [Hexer Class 日本語化](https://steamcommunity.com/sharedfiles/filedetails/?id=3537931801)
+
+
+---
 Again: If you can help improve them, your contributions are greatly appreciated!
