@@ -22,6 +22,12 @@ If you notice any errors or want to help improve the translations, your contribu
 - **Chinese** – made with AI tools
 
 - **Japanese** – taken from the mod: [Hexer Class 日本語化](https://steamcommunity.com/sharedfiles/filedetails/?id=3537931801)
+- **Bulgarian** – made with AI tools (lingvanex)
+- **Spanish** – made with AI tools (lingvanex)
+- **Italian** – made with AI tools (lingvanex)
+- **Korean** – made with AI tools (lingvanex)
+- **Polish** – made with AI tools (lingvanex)
+- **Portuguese (Brazil)** – made with AI tools (lingvanex)
 
 ---
 
