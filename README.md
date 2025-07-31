@@ -1,6 +1,6 @@
 # Hexer mod translation (DE/FR/RU/ZH/JA)
 
-This mod adds translations to the Hexer mod.
+[This mod adds translations to the Hexer mod.](https://steamcommunity.com/sharedfiles/filedetails/?id=3538327453)
 
 All translations were initially generated using AI tools, as I do not speak or understand these languages myself.
 
