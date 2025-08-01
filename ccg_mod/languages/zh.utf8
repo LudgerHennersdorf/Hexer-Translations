@@ -18,7 +18,7 @@ poison_influence_desc = "代表角色的中毒程度。每当计数器增加一�
 poison_influence_name = "毒性"
 
 car_toxin_hex_title = "毒药"
-car_toxin_hex_desc  = "弃牌时，对玩家造成1次伤害。出牌和弃牌时都会造成伤害。"
+car_toxin_hex_desc  = "弃牌时，对玩家造成 \1 点伤害。弃牌和打出时，\n\^debf56耗竭\^^ 。"
 
 
 silver_sword_name = "银剑"
