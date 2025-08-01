@@ -13,7 +13,7 @@ If you notice any errors or want to help improve the translations, your contribu
 
 ## Currently supported languages:
 
-- **Simplified Chinese** – fixed and updated by a community member
+- **Simplified Chinese** – fixed and updated by 萧阳 (big-sun-lxy)
 - **German** – made with AI tools
 - **French** – made with AI tools
 - **Russian** – made with AI tools
