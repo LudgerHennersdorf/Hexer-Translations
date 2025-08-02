@@ -33,9 +33,10 @@ jobs:
       - name: Upload mod to Steam Workshop
         run: |
           steamcmd +login "$STEAM_USERNAME" "$STEAM_PASSWORD" \
-                   +"$STEAM_GUARD"
+                   #+"$STEAM_GUARD"
                    +workshop_build_item "workshop_upload.vdf" \
                    +quit
           env:
           STEAM_USERNAME: ${{ secrets.STEAM_USERNAME }}
           STEAM_PASSWORD: ${{ secrets.STEAM_PASSWORD }}
+          STEAM_GUARD: ${{ secrets.STEAM_GUARD }}
