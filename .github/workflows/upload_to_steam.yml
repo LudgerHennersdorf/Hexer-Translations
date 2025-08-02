@@ -13,14 +13,29 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: steam-workshop-upload
-        uses: Weilbyte/steam-workshop-upload@v1.1
-        with: 
-          appid: 1201540 # Game's Steam App ID
-          itemid: 3538327453 # Your mod's Steam Workshop ID
-          path: 'ccg_mod' # Path to your mod's folder from repository root
-          changenote: '${{ github.event.head_commit.message }}'
-        env:
-          STEAM_USERNAME: ${{ secrets.STEAM_USERNAME }} # Your Steam username
-          STEAM_PASSWORD: ${{ secrets.STEAM_PASSWORD }} # Your Steam password
-          STEAM_TFASEED: ${{ secrets.STEAM_TFASEED }} # Your Steam Guard 2FA shared secret (Optional)
+      - name: Setup SteamCMD
+        # You may pin to the exact commit or the version.
+        # uses: CyberAndrii/setup-steamcmd@29e114af032a947f5ed57832409070d6e4cbfce3
+        uses: CyberAndrii/setup-steamcmd@v1.2.0
+        
+      - name: Create VDF file
+        run: |
+          cat <<EOF > workshop_upload.vdf
+          "workshopitem"
+          {
+              "appid"            "1201540"
+              "publishedfileid"  "3538327453"
+              "contentfolder"    "ccg_mod/"
+              "changenote"       "${{ github.event.head_commit.message }}"
+          }
+          EOF
+          
+      - name: Upload mod to Steam Workshop
+        run: |
+          steamcmd +login "$STEAM_USERNAME" "$STEAM_PASSWORD" \
+                   +"$STEAM_GUARD"
+                   +workshop_build_item "workshop_upload.vdf" \
+                   +quit
+          env:
+          STEAM_USERNAME: ${{ secrets.STEAM_USERNAME }}
+          STEAM_PASSWORD: ${{ secrets.STEAM_PASSWORD }}
