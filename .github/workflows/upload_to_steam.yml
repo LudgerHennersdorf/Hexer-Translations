@@ -13,10 +13,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Install SteamCMD
-        run: |
-          sudo add-apt-repository multiverse; sudo dpkg --add-architecture i386; sudo apt update
-          sudo apt-get install -y steamcmd
+      - name: Setup SteamCMD
+        # You may pin to the exact commit or the version.
+        # uses: CyberAndrii/setup-steamcmd@29e114af032a947f5ed57832409070d6e4cbfce3
+        uses: CyberAndrii/setup-steamcmd@v1.2.0
  
       - name: Create VDF file
         run: |
