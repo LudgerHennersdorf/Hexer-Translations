@@ -1,6 +1,6 @@
 # Hexer Mod Translation (DE/FR/RU/ZH/JP/BG/CN/ES/IT/KO/PL/BR)
 
-<img align="right" src="https://github.com/LudgerHennersdorf/Hexer-Translations/blob/main/ccg_mod/Hexer_lang.jpg" alt="hexer icon with 5 flags on top" width="150">
+<img align="right" src="https://github.com/LudgerHennersdorf/Hexer-Translations/blob/main/Hexer_lang.jpg" alt="hexer icon with 5 flags on top" width="150">
 
 
 [This mod adds translations to the Hexer mod.](https://steamcommunity.com/sharedfiles/filedetails/?id=3538327453)
