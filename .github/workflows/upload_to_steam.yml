@@ -17,7 +17,19 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y steamcmd
-
+ 
+      - name: Create VDF file
+        run: |
+          cat <<EOF > workshop_upload.vdf
+          "workshopitem"
+          {
+              "appid"            "1201540"
+              "publishedfileid"  "3538327453"
+              "contentfolder"    "ccg_mod/"
+              "changenote"       "${{ github.event.head_commit.message }}"
+          }
+          EOF
+      
       - name: Upload mod to Steam Workshop
         run: |
           steamcmd +login "$STEAM_USERNAME" "$STEAM_PASSWORD" \
