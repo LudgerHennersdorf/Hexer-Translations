@@ -14,7 +14,7 @@ If you notice any errors or want to help improve the translations, your contribu
 ## Currently supported languages:
 
 - **Simplified Chinese** – fixed and updated by 萧阳 (big-sun-lxy)
-- **German** – made with AI tools
+- **German** – fixed and updated by me
 - **French** – made with AI tools
 - **Russian** – made with AI tools
 - **Chinese** – made with AI tools
