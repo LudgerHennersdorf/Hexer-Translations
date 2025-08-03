@@ -1,3 +1,7 @@
+# French Translation
+# generated via AI
+# not yet updated 
+
 almanac_hexer_cards = "Cartes Hexer"
 almanac_starting_hexer = "Débutant (Hexer)"
 almanac_hexer_plural = "Hexers"
@@ -14,14 +18,14 @@ poison_influence_desc = "Représente le niveau de toxicité du personnage. Chaqu
 poison_influence_name = "Poison"
 
 car_toxin_hex_title = "Toxine"
-car_toxin_hex_desc  = "Lorsqu'elle est défaussée, inflige \1 point de dégâts au joueur.\n\^debf56Exhaust\^^ lorsqu'elle est jouée et lorsqu'elle est défaussée."
+car_toxin_hex_desc  = "Lorsqu'elle est défaussée, inflige \1 point de dégâts au joueur.\n\^debf56Épuisez\^^ lorsqu'elle est jouée et lorsqu'elle est défaussée."
 
 
 silver_sword_name = "Épée d'argent"
 silver_sword_desc = "Vos épées infligent +1 dégât pour chaque poison que vous avez."
 
 medallion_name = "Médaillon"
-medallion_desc = "Au début de votre tour, gagnez 1 bloc pour chaque monstre dans votre tranche."
+medallion_desc = "Au début de votre tour, gagnez 1 de parade pour chaque monstre dans votre section."
 
 weird_horse_name = "Cheval étrange"
 weird_horse_desc = "Au début de votre tour, déplacez un monstre aléatoire vers une section aléatoire et infligez-lui des dégâts aléatoires (entre 1 et 10)."
@@ -33,7 +37,7 @@ car_retributionpotion_hex_title = "Potion de rétribution"
 car_healpotion_hex_desc = "Au début de votre tour, soignez un nombre de PV égal au Poison actuel. Dure 3 tours. \nGagnez \7 Poison."
 car_healpotion_hex_title = "Potion de soin"
 
-car_replicationpotion_hex_desc = "Copiez la prochaine carte que vous jouez dans votre main avec un coût de 0. Si vous avez \6 ou plus de poison, copiez-en une de plus. \nGagnez \7 de poison. \^debf56Exhaust\^^."
+car_replicationpotion_hex_desc = "Copiez la prochaine carte que vous jouez dans votre main avec un coût de 0. Si vous avez \6 ou plus de poison, copiez-en une de plus. \nGagnez \7 de poison. \^debf56Épuisement\^^."
 car_replicationpotion_hex_title = "Potion de réplication"
 
 car_ragepotion_hex_desc = "Augmente les dégâts infligés par le poison. Dure 3 tours. \nGagnez \7 points de poison."
@@ -45,7 +49,7 @@ car_hastepotion_hex_title = "Potion de hâte"
 car_guardpotion_hex_desc = "Au début de votre tour, gagnez un blocage égal à Poison. Dure 3 tours. \nGagnez \7 Poison."
 car_guardpotion_hex_title = "Potion de garde"
 
-car_burn_hex_desc = "Infligez 2 + 2 fois les dégâts de poison dans un petit rayon. \n(\1 au total)\n\^debf56Exhaust\^^."
+car_burn_hex_desc = "Infligez 2 + 2 fois les dégâts de poison dans un petit rayon. \n(\1 au total)\n\^debf56Épuisement\^^."
 car_burn_hex_title = "Brûlure"
 
 car_forcewave_hex_desc = "Poussez les ennemis dans un cône moyen de près à loin. Si vous avez \6 ou plus de poison, les fige."
@@ -79,7 +83,7 @@ car_pommelstrike_hex_desc = "Inflige 1 point de dégâts et \^debf56stun\^^."
 car_redirection_hex_title = "Redirection"
 car_redirection_hex_desc = "Inflige \1 point de dégâts.\nSi l'intention du monstre est d'attaquer, ajoutez sa force aux dégâts."
 car_armorfracture_hex_title = "Fracture d'armure"
-car_armorfracture_hex_desc = "Si le monstre a \^debf56block\^^, infligez des dégâts imparables égaux à son \^debf56block\^^. Sinon, infligez \1 dégâts."
+car_armorfracture_hex_desc = "Si le monstre a de la \^debf56parade\^^, infligez des dégâts imparables égaux à sa \^debf56parade\^^. Sinon, infligez \1 dégâts."
 
 car_crowdcrusher_hex_title = "Écrasement de foule"
 car_crowdcrusher_hex_desc = "Inflige \1 point de dégâts dans un rayon moyen. Multiplie ces dégâts par le nombre de monstres affectés, sans dépasser le niveau actuel de Poison."
@@ -95,19 +99,19 @@ car_bladedance_hex_desc = "Inflige à chaque monstre dans un large rayon des dé
 
 
 car_innercontrol_hex_title = "Contrôle intérieur"
-car_innercontrol_hex_desc = "Gagnez \^debf56block\^^ égal à \2 + Poison.\n(\7 au total)"
+car_innercontrol_hex_desc = "Gagnez \^debf56parade\^^ égal à \2 + Poison.\n(\7 au total)"
 
 car_beer_hex_title = "Bière"
 car_beer_hex_desc = "Gagnez \5 Poison."
 
 car_enhancedguardian_hex_title = "Gardien amélioré"
-car_enhancedguardian_hex_desc = "Donnez \^debf56block\^^ égal à \2 + Poison à tous les héros.\n(\7 au total)"
+car_enhancedguardian_hex_desc = "Donnez \^debf56parade\^^ égal à \2 + Poison à tous les héros.\n(\7 au total)"
 
 car_poisonedbarrier_hex_title = "Barrière empoisonnée"
-car_poisonedbarrier_hex_desc = "Gagnez \5 Poison.\nDonnez \^debf56block\^^ égal à \2 + Poison x\6 à tous les héros.\n(\7 au total)"
+car_poisonedbarrier_hex_desc = "Gagnez \5 Poison.\nDonnez \^debf56parade\^^ égal à \2 + Poison x\6 à tous les héros.\n(\7 au total)"
 
 car_metabolizetoxin_hex_title = "Métaboliser la toxine"
-car_metabolizetoxin_hex_desc = "Obtenez \5 mana.\nSi vous avez \^d0d0ffToxin\^^ en main, \^debf56Exhaust\^^-les et obtenez \6 mana pour chacun."
+car_metabolizetoxin_hex_desc = "Obtenez \5 mana.\nSi vous avez \^d0d0ffToxin\^^ en main, \^debf56Épuisez\^^-les et obtenez \6 mana pour chacun."
 
 car_freezingsurge_hex_title = "Vague glaciale"
 car_freezingsurge_hex_desc = "\^debf56Gèle\^^ les monstres dans un long cône moyen. Si vous avez \5 Poison ou plus, \^debf56Gèle\^^ également les monstres à courte portée."
@@ -119,7 +123,7 @@ car_purifyinghaste_hex_title = "Hâte purificatrice"
 car_purifyinghaste_hex_desc = "\^debf56Épuise\^^ toute la \^d0d0ffToxine\^^ de votre deck. Tous les héros obtiennent du mana et piochent des cartes égales à 1/\5 de la \^d0d0ffToxine\^^ épuisée, mais pas moins de \6.\n(\7 au total)."
 
 car_cleansingaura_hex_title = "Aura purificatrice"
-car_cleansingaura_hex_desc = "Donnez \^debf56block\^^ égal à \2x Poison (\7 au total) à tous les héros. Soignez tous les héros de 1/\5 Poison (\8 au total).\nRétablissez le poison à 0."
+car_cleansingaura_hex_desc = "Donnez \^debf56parade\^^ égal à \2x Poison (\7 au total) à tous les héros. Soignez tous les héros de 1/\5 Poison (\8 au total).\nRétablissez le poison à 0."
 
 
 influence_retribution_desc = "Chaque monstre qui vous attaque et inflige des dégâts inférieurs ou égaux à votre Poison sera étourdi lors de votre prochain tour."
