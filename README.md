@@ -7,7 +7,7 @@
 
 All translations were initially generated using AI tools, as I do not speak or understand these languages myself.
 
-If you notice any errors or want to help improve the translations, your contributions are very welcome!
+If you notice any errors or want to help improve the translations, your contributions are very welcome! Have a look at the issue page.
 
 <br>
 
@@ -28,4 +28,4 @@ If you notice any errors or want to help improve the translations, your contribu
 
 ---
 
-Again: If you can help improve them, your contributions are greatly appreciated!
+Again: If you can help improve them, your contributions are greatly appreciated! Have a look at the issue page.
