@@ -15,7 +15,7 @@ If you notice any errors or want to help improve the translations, your contribu
 
 - **Simplified Chinese** – fixed and updated by 萧阳 (big-sun-lxy)
 - **German** – fixed and updated by me
-- **French** – made with AI tools
+- **French** – updated with help from ATHIDuna
 - **Russian** – made with AI tools
 - **Chinese** – made with AI tools
 - **Japanese** – taken from the mod: [Hexer Class 日本語化](https://steamcommunity.com/sharedfiles/filedetails/?id=3537931801)
