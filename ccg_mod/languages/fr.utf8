@@ -1,6 +1,6 @@
 # French Translation
 # generated via AI
-# not yet updated 
+# updated a few keywords and phrases based in ATHIDuna's input
 
 almanac_hexer_cards = "Cartes Hexer"
 almanac_starting_hexer = "Débutant (Hexer)"
@@ -78,7 +78,7 @@ car_crowdcontrol_hex_title = "Contrôle des foules"
 car_crowdcontrol_hex_desc = "Inflige \1 point de dégâts dans un petit rayon. Multipliez ces dégâts par le nombre de monstres affectés, mais sans dépasser le niveau actuel de Poison."
 
 car_pommelstrike_hex_title = "Coup de poing"
-car_pommelstrike_hex_desc = "Inflige 1 point de dégâts et \^debf56stun\^^."
+car_pommelstrike_hex_desc = "Inflige 1 point de dégâts et \^debf56étourdit\^^."
 
 car_redirection_hex_title = "Redirection"
 car_redirection_hex_desc = "Inflige \1 point de dégâts.\nSi l'intention du monstre est d'attaquer, ajoutez sa force aux dégâts."
@@ -99,16 +99,16 @@ car_bladedance_hex_desc = "Inflige à chaque monstre dans un large rayon des dé
 
 
 car_innercontrol_hex_title = "Contrôle intérieur"
-car_innercontrol_hex_desc = "Gagnez \^debf56parade\^^ égal à \2 + Poison.\n(\7 au total)"
+car_innercontrol_hex_desc = "Gagnez de la \^debf56parade\^^ égal à \2 + Poison.\n(\7 au total)"
 
 car_beer_hex_title = "Bière"
 car_beer_hex_desc = "Gagnez \5 Poison."
 
 car_enhancedguardian_hex_title = "Gardien amélioré"
-car_enhancedguardian_hex_desc = "Donnez \^debf56parade\^^ égal à \2 + Poison à tous les héros.\n(\7 au total)"
+car_enhancedguardian_hex_desc = "Donnez de la \^debf56parade\^^ égal à \2 + Poison à tous les héros.\n(\7 au total)"
 
 car_poisonedbarrier_hex_title = "Barrière empoisonnée"
-car_poisonedbarrier_hex_desc = "Gagnez \5 Poison.\nDonnez \^debf56parade\^^ égal à \2 + Poison x\6 à tous les héros.\n(\7 au total)"
+car_poisonedbarrier_hex_desc = "Gagnez \5 Poison.\nDonnez de la \^debf56parade\^^ égal à \2 + Poison x\6 à tous les héros.\n(\7 au total)"
 
 car_metabolizetoxin_hex_title = "Métaboliser la toxine"
 car_metabolizetoxin_hex_desc = "Obtenez \5 mana.\nSi vous avez \^d0d0ffToxin\^^ en main, \^debf56Épuisez\^^-les et obtenez \6 mana pour chacun."
@@ -123,7 +123,7 @@ car_purifyinghaste_hex_title = "Hâte purificatrice"
 car_purifyinghaste_hex_desc = "\^debf56Épuise\^^ toute la \^d0d0ffToxine\^^ de votre deck. Tous les héros obtiennent du mana et piochent des cartes égales à 1/\5 de la \^d0d0ffToxine\^^ épuisée, mais pas moins de \6.\n(\7 au total)."
 
 car_cleansingaura_hex_title = "Aura purificatrice"
-car_cleansingaura_hex_desc = "Donnez \^debf56parade\^^ égal à \2x Poison (\7 au total) à tous les héros. Soignez tous les héros de 1/\5 Poison (\8 au total).\nRétablissez le poison à 0."
+car_cleansingaura_hex_desc = "Donnez de la \^debf56parade\^^ égal à \2x Poison (\7 au total) à tous les héros. Soignez tous les héros de 1/\5 Poison (\8 au total).\nRétablissez le poison à 0."
 
 
 influence_retribution_desc = "Chaque monstre qui vous attaque et inflige des dégâts inférieurs ou égaux à votre Poison sera étourdi lors de votre prochain tour."
